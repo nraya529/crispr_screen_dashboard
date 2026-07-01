@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Streamlit secrets (never commit credentials)
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# NOTE: processed_sgRNA_enrichment.csv IS committed on purpose so the deployed
+# app has default data to show. Remove the next line to keep it out of git.
+# processed_sgRNA_enrichment.csv

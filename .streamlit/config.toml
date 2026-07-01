@@ -1,0 +1,23 @@
+# Streamlit configuration. Read automatically by both `streamlit run` locally
+# and by Streamlit Community Cloud on deploy.
+
+[browser]
+# Don't nag for an email on first run and don't phone home usage stats.
+gatherUsageStats = false
+
+[global]
+showWarningOnDirectExecution = false
+
+[theme]
+# Clean light theme tuned to match the volcano/MA palette. Switch base = "dark"
+# if the lab prefers dark mode on the projector.
+base = "light"
+primaryColor = "#2E866A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6F8"
+textColor = "#1A1A1A"
+font = "sans serif"
+
+[server]
+# Allow larger sgRNA tables (genome-wide screens can be tens of MB).
+maxUploadSize = 400
